@@ -49,4 +49,3 @@ monitors:
     url: 'https://mokeeva.pro/'
     method: GET
     expectStatus: 200
-
