@@ -43,3 +43,10 @@ monitors:
     url: 'https://mokeev.net/'
     method: GET
     expectStatus: 200
+
+- id: mokeeva-pro
+    name: Tatiana Mokeeva
+    url: 'https://mokeeva.pro/'
+    method: GET
+    expectStatus: 200
+
