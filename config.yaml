@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://cloudfare.alpaca.pet' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -35,5 +35,11 @@ monitors:
   - id: blog-cloudflare-com
     name: The Cloudflare Blog
     url: 'https://blog.cloudflare.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: mokeev-net
+    name: Sergey Mokeev
+    url: 'https://mokeev.net/'
     method: GET
     expectStatus: 200
